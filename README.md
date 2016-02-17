@@ -4,7 +4,7 @@ this defines a docker container with a thingspeak server in it
 ### Usage
 ```bash
 docker pull greyltc/thingspeak
-docker run --name thingspeak -p 3000:80 -d greyltc/thingspeak
+docker run --name thingspeak -p 80:3000 -d greyltc/thingspeak
 ```
 
 Now you can login via the admin web interface by visiting
