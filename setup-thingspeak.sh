@@ -23,3 +23,5 @@ echo "AdminUser.create!(email: 'thing@speak.com', password: 'speakspeak', passwo
 
 mysqladmin shutdown
 
+# reduce docker layer size
+cleanup-image
